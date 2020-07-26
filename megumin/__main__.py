@@ -35,18 +35,13 @@ _Maintained by_ [{}](tg://user?id={})
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
-*Main* commands available:
- 🧬 - /start: start the bot
- 🧬 - /help: PM's you this message.
- 🧬 - /help <module name>: PM's you info about that module.
- 🧬 - /source: Information about my source.
- 🧬 - /settings:
- 🧬 - In PM: will send you your settings for all supported modules.
- 🧬 - In a group: will redirect you to pm, with all that chat's settings.
-{}
-And the following:
+Miss Lilly is the most complete bot to help you manage your groups!
+
+💫 *Add* me in a supergroup and promote me as admin to let me get action!
+
+im a part of [Here](t.me/Rkprojects
+
+*Commands*
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 
@@ -58,8 +53,8 @@ def vercheck() -> str:
 
 
 SOURCE_STRING = """
-⚡ I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://github.com/Mr-Professor/Megumin)
-⚡ You Can Clone Me [Here](https://heroku.com/deploy?template=https://github.com/Mr-Professor/Megumin.git)
+⚡ I'm built in python3, using the python-telegram-Userbot library, and am fully opensource - you can find what makes me tick [here](https://github.com/indianSammy07/WolfUserbot)
+⚡ You Can Clone Me [Here](https://heroku.com/deploy?template=https://github.com/indianSammy07/WolfUserbot.git)
 """
 
 
@@ -78,7 +73,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/4e4abb2449532046ce73c.jpg"
+    img = "https://telegra.ph/file/b9e54242397efffee94b1.jpg"
 else:
   img = START_IMG    
     

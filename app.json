@@ -49,16 +49,16 @@
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
-         "value": "732510605"
+         "value": "1244074215"
       },
       "OWNER_NAME": {
          "description": "Your Name",
-         "value": "🅡@🅙🅥€€🅡 ``𝓥𝓮ℓ๏cΐ𝓽𝔂"
+         "value": "MR ``Sammy"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "732510605"
+         "value": "1244074215"
       },
       "CASH_API_KEY": {
          "description": "Required for currency converter",
@@ -98,12 +98,12 @@
       "SUDO_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "732510605"
+         "value": "1244074215"
       },
       "SUPPORT_USERS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "732510605"
+         "value": "1244074215"
       },
      
       "TOKEN": {
@@ -124,7 +124,7 @@
       "WHITELIST_USERS": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "732510605"
+         "value": "1244074215"
       },
       "WALL_API":{
          "description": "Enter wall api",
@@ -145,8 +145,8 @@
       "megumin"
       
    ],
-   "name": "Cinderella",
-   "repository": "https://github.com/Mr-Professor/Megumin",
+   "name": "MissLillyBot",
+   "repository": "https://github.com/MrSammy07/Lilly",
    "success_url": "https://telegram.dog/Megumin_group_bot",
    "logo": "https://telegra.ph/file/d98234e64ec0866cdbf6f.jpg"
 }

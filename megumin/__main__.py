@@ -28,18 +28,18 @@ from megumin.modules.connection import connect_button
 
 PM_START_TEXT = """
 _Hello_ *{}*
-_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!!_
-_Maintained by_ [{}](tg://user?id={})
+_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups😁!!_
+_Maintained by_ [THEM(🇮🇳)](HTTPS://T.ME/TEAMDARKCOBRA)
 """
 
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-Miss Lilly is the most complete bot to help you manage your groups!
+Miss Fantasy is the most complete bot to help you manage your groups!
 
 💫 *Add* me in a supergroup and promote me as admin to let me get action!
 
-im a part of [Here](t.me/Rkprojects
+
 
 *Commands*
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
